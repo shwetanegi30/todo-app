@@ -1,8 +1,6 @@
 import React from "react";
-// import { nanoid } from "nanoid";
 import "../App.css";
-// import moonIcon from '../assets/images/icon-moon.svg';
-// import sunIcon from '../assets/images/icon-sun.svg';
+
 
 function Header({
   todos,
@@ -46,14 +44,8 @@ function Header({
           onClick={handleTheme}
           className={theme ? "fas fa-moon" : "fas fa-sun"}
         ></i>
-
-{/* {darkMode ? (
-          <img  src={sunIcon} alt="" onClick={() => dispatch(toggleTheme())} />
-        ) : (
-          <img  src={moonIcon} alt="" onClick={() => dispatch(toggleTheme())} />
-        )} */}
-
       </div>
+      
 <div className="input-container">
       <div className="circle"></div>
       <form onSubmit={handleSubmit} className="form--container">
